@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+<nav>
+    <a href="Index.html"><img src="images/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="Index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+<h1>World's Biggest University</h1>
+<p>HTML is used for creating websites and CSS is the language that describes the style of an HTML document.<br> We will combine HTML and CSS to create a basic web page.</p>
+    <a href="" class="hero-btn">Visit Us to know more</a>
+</div>
+    </section>
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+<!-------Course-------->    
+<section class="course">
+    <h1>Couses We Offer</h1>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>The Intermediate Courses are taught at the Government or Private or Cooperative Junior Colleges for two years.<br> These Courses are followed by prestigious State level Entrance Tests for admission to the various Degree Colleges offering Professional or general education.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>In the past few years of a worldwide pandemic, all the Universities have adopted the online mode of Education. Even, UGC-DEB approved the online Degree courses for top NAAC A+ Universities.<br> Hence, the learning has gotten a lot better and easier.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post-Graduation</h3>
+            <p>A postgraduate is a student who has successfully completed an undergraduate degree level course at a college or university and is undertaking further study at a more advanced level.</p>
+        </div>
+    </div>
+</section>
+<!------Campus------>
+
+<section class="campus">
+<h1>Our Campus</h1>
+<p>
+    Our University encourages students from all faith backgrounds to find their God-designed potential for leadership, scholarship and service
+</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="images/delhi.jpg" >
+        <div class="layer">
+            <h3>DELHI</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/newyork.png" >
+        <div class="layer">
+            <h3>NEWYORK</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/london.png" >
+        <div class="layer">
+            <h3>LONDON</h3>
+        </div>
+    </div>
+    
+</div>
+</section>
+<!-----Facilities---->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Well-Maintained Toilets.
+        Ventilation and Air Quality. 
+        Space and Size of Classrooms. 
+        Playgrounds and Sport Facilities. 
+        Open Air Theatre. 
+        Acoustics and Noise.
+        Lighting. 
+        Temperature Control.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" >
+                <h3>Library</h3>
+                <p>A social space for interaction and knowledge exchange.
+                    A quiet space for contemplation.
+                    A maker space for innovation.
+                    A neutral and trusted space for public use
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png" >
+                <h3>Playground</h3>
+                <p>A social space for interaction and knowledge exchange.
+                    A quiet space for contemplation.
+                    A maker space for innovation.
+                    A neutral and trusted space for public use
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" >
+                <h3>Cafeteria</h3>
+                <p>A social space for interaction and knowledge exchange.
+                    A quiet space for contemplation.
+                    A maker space for innovation.
+                    A neutral and trusted space for public use
+                </p>
+            </div>
+        </div>
+
+</section>
+<!------Testimonials------>
+<section class="testimonials">
+    <h1>Students Review</h1>
+    <p>Write your evaluation of the work in a clear 1-2 sentence thesis statement.</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user.jpg">
+            <div>
+            <p>University is in such a lovely area and the campus is absolutely beautiful. It has pretty much everything you could need on campus, and has good transport links for buses and coaches, and it's one bus ride away from Norwich train station. I haven't had much experience with the student support services but I've heard from friends that they're pretty good.</p>
+            <h3 style="margin-top:15px;text-align: left;">Christine Berkley</h3>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o" ></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+            <p> It has pretty much everything you could need on campus, and has good transport links for buses and coaches, and it's one bus ride away from Norwich train station. I haven't had much experience with the student support services but I've heard from friends that they're pretty good.</p>
+            <h3 style="margin-top:15px;text-align: left;">Ross Byer</h3>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-half-o" ></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!----------------------->
+
+<section class="cta">
+    <h1 >Enroll For Our Various Online Courses<br>Anywhere From The World.</h1>
+     <a href="" class="hero-btn">CONTACT US</a>
+</section>
+<!----Footer-->
+<section class="footer">
+<h4>About Us</h4>
+<p>The about us page is often a reflection of the purpose and personality of the business and its owners or top employees.</p>
+<div class="icons">
+    <i class="fa fa-facebook" ></i>
+    <i class="fa fa-twitter" ></i>
+    <i class="fa fa-instagram" ></i>
+    <i class="fa fa-linkedin" ></i>
+    <p>Made With <i class="fa fa-heart-o" ></i> by Easy Tutorials</p>
+
+</div>
+
+</section>
+</body>
+</html>
